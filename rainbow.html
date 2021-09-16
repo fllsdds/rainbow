@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>彩虹</title>
+  <style>
+    *{
+      box-sizing: border-box;
+      overflow: hidden;
+      
+    }
+    .parent{
+      height: 200px;
+      width: 400px;
+    }
+    .rainbow{
+      height: 400px;
+      width: 400px;
+      background-color: red;
+      border-radius: 50%;
+    }
+    .rainbow div{
+      border-radius: 50%;
+    }
+    .rainbow > div {
+      height: 380px;
+      width: 380px;
+      margin: 10px;
+      background-color: orange;
+    }
+    .rainbow > div > div{
+      height: 360px;
+      width: 360px;
+      margin: 10px;
+      background-color: yellow;
+    }
+    .rainbow > div > div > div{
+      height: 340px;
+      width: 340px;
+      margin: 10px;
+      background-color: #23911e;
+    }
+    .rainbow > div > div > div > div{
+      height: 320px;
+      width: 320px;
+      margin: 10px;
+      background-color: #25fbda;
+    }
+    .rainbow > div > div > div > div > div{
+      height: 300px;
+      width: 300px;
+      margin: 10px;
+      background-color: blue;
+    }
+    .rainbow > div > div > div > div > div > div{
+      height: 280px;
+      width: 280px;
+      margin: 10px;
+      background-color: purple;
+    }
+    .rainbow > div > div > div > div > div > div > div{
+      height: 260px;
+      width: 260px;
+      margin: 10px;
+      background-color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="rainbow">
+      <div>
+        <div>
+          <div>
+            <div>
+              <div>
+                <div>
+                  <div>
+                    <div></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
